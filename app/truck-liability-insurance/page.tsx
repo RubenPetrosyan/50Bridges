@@ -6,9 +6,17 @@ export const metadata: Metadata = {
   description:
     "FMCSA-compliant truck liability insurance for owner-operators and fleets. Fifty Bridges compares top carriers to deliver affordable coverage across the USA.",
   alternates: {
-    canonical: "/truck-liability-insurance/",
+    canonical: "https://www.50bridges.com/truck-liability-insurance/",
+  },
+  openGraph: {
+    title: "Truck Liability Insurance USA | Fifty Bridges",
+    description:
+      "FMCSA-compliant truck liability insurance for owner-operators and fleets. Fifty Bridges compares top carriers to deliver affordable coverage across the USA.",
+    url: "https://www.50bridges.com/truck-liability-insurance/",
+    type: "website",
   },
 };
+
 
 export default function TruckLiabilityInsurancePage() {
   return (

@@ -5,9 +5,17 @@ export const metadata: Metadata = {
   description:
     "Request a commercial truck insurance quote. Submit your DOT details, fleet info, and documents to Fifty Bridges.",
   alternates: {
-    canonical: "/request-a-quote/",
+    canonical: "https://www.50bridges.com/request-a-quote/",
+  },
+  openGraph: {
+    title: "Request a Truck Insurance Quote | Fifty Bridges",
+    description:
+      "Request a commercial truck insurance quote. Submit your DOT details, fleet info, and documents to Fifty Bridges.",
+    url: "https://www.50bridges.com/request-a-quote/",
+    type: "website",
   },
 };
+
 
 export default function RequestQuotePage() {
   return (

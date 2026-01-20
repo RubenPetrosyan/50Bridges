@@ -6,9 +6,17 @@ export const metadata: Metadata = {
   description:
     "Small fleet truck insurance for 2–20 trucks. Fifty Bridges helps growing trucking companies across the USA get affordable, compliant fleet coverage.",
   alternates: {
-    canonical: "/small-fleet-truck-insurance/",
+    canonical: "https://www.50bridges.com/small-fleet-truck-insurance/",
+  },
+  openGraph: {
+    title: "Small Fleet Truck Insurance USA | Fifty Bridges",
+    description:
+      "Small fleet truck insurance for 2–20 trucks. Fifty Bridges helps growing trucking companies across the USA get affordable, compliant fleet coverage.",
+    url: "https://www.50bridges.com/small-fleet-truck-insurance/",
+    type: "website",
   },
 };
+
 
 export default function SmallFleetTruckInsurancePage() {
   return (

@@ -6,9 +6,17 @@ export const metadata: Metadata = {
   description:
     "Protect your freight with motor truck cargo insurance. Fifty Bridges helps owner-operators and fleets across the USA get compliant, affordable cargo coverage.",
   alternates: {
-    canonical: "/cargo-insurance/",
+    canonical: "https://www.50bridges.com/cargo-insurance/",
+  },
+  openGraph: {
+    title: "Motor Truck Cargo Insurance USA | Fifty Bridges",
+    description:
+      "Protect your freight with motor truck cargo insurance. Fifty Bridges helps owner-operators and fleets across the USA get compliant, affordable cargo coverage.",
+    url: "https://www.50bridges.com/cargo-insurance/",
+    type: "website",
   },
 };
+
 
 export default function CargoInsurancePage() {
   return (

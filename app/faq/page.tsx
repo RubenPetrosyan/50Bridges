@@ -6,9 +6,17 @@ export const metadata: Metadata = {
   description:
     "Answers to common truck insurance questions. Learn about costs, FMCSA requirements, coverage options, and how Fifty Bridges helps truckers across the USA.",
   alternates: {
-    canonical: "/faq/",
+    canonical: "https://www.50bridges.com/faq/",
+  },
+  openGraph: {
+    title: "Truck Insurance FAQs | Fifty Bridges",
+    description:
+      "Answers to common truck insurance questions. Learn about costs, FMCSA requirements, coverage options, and how Fifty Bridges helps truckers across the USA.",
+    url: "https://www.50bridges.com/faq/",
+    type: "website",
   },
 };
+
 
 export default function FAQPage() {
   return (

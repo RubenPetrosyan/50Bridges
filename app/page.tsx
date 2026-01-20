@@ -6,9 +6,17 @@ export const metadata: Metadata = {
   description:
     "Fifty Bridges is a nationwide truck insurance broker helping owner-operators and fleets secure compliant, affordable commercial truck insurance across the USA.",
   alternates: {
-    canonical: "/",
+    canonical: "https://www.50bridges.com/",
+  },
+  openGraph: {
+    title: "Truck Insurance Broker USA | Commercial Truck Insurance Nationwide",
+    description:
+      "Fifty Bridges is a nationwide truck insurance broker helping owner-operators and fleets secure compliant, affordable commercial truck insurance across the USA.",
+    url: "https://www.50bridges.com/",
+    type: "website",
   },
 };
+
 
 export default function HomePage() {
   return (

@@ -6,9 +6,17 @@ export const metadata: Metadata = {
   description:
     "Affordable semi-truck insurance for owner-operators and fleets. Fifty Bridges compares top carriers to provide compliant coverage across the USA.",
   alternates: {
-    canonical: "/semi-truck-insurance/",
+    canonical: "https://www.50bridges.com/semi-truck-insurance/",
+  },
+  openGraph: {
+    title: "Semi-Truck Insurance USA | Fifty Bridges",
+    description:
+      "Affordable semi-truck insurance for owner-operators and fleets. Fifty Bridges compares top carriers to provide compliant coverage across the USA.",
+    url: "https://www.50bridges.com/semi-truck-insurance/",
+    type: "website",
   },
 };
+
 
 export default function SemiTruckInsurancePage() {
   return (

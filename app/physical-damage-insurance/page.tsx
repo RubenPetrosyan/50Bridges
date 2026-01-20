@@ -6,9 +6,17 @@ export const metadata: Metadata = {
   description:
     "Protect your truck with physical damage insurance. Fifty Bridges helps owner-operators and fleets across the USA secure affordable coverage for collision and comprehensive losses.",
   alternates: {
-    canonical: "/physical-damage-insurance/",
+    canonical: "https://www.50bridges.com/physical-damage-insurance/",
+  },
+  openGraph: {
+    title: "Physical Damage Truck Insurance USA | Fifty Bridges",
+    description:
+      "Protect your truck with physical damage insurance. Fifty Bridges helps owner-operators and fleets across the USA secure affordable coverage for collision and comprehensive losses.",
+    url: "https://www.50bridges.com/physical-damage-insurance/",
+    type: "website",
   },
 };
+
 
 export default function PhysicalDamageInsurancePage() {
   return (

@@ -6,9 +6,17 @@ export const metadata: Metadata = {
   description:
     "Affordable owner-operator truck insurance for independent drivers. Fifty Bridges helps owner-operators across the USA get compliant, cost-effective coverage.",
   alternates: {
-    canonical: "/owner-operator-truck-insurance/",
+    canonical: "https://www.50bridges.com/owner-operator-truck-insurance/",
+  },
+  openGraph: {
+    title: "Owner-Operator Truck Insurance USA | Fifty Bridges",
+    description:
+      "Affordable owner-operator truck insurance for independent drivers. Fifty Bridges helps owner-operators across the USA get compliant, cost-effective coverage.",
+    url: "https://www.50bridges.com/owner-operator-truck-insurance/",
+    type: "website",
   },
 };
+
 
 export default function OwnerOperatorTruckInsurancePage() {
   return (

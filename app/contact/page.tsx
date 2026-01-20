@@ -5,9 +5,17 @@ export const metadata: Metadata = {
   description:
     "Contact Fifty Bridges to get a fast truck insurance quote. We help owner-operators and trucking companies across the USA get compliant coverage.",
   alternates: {
-    canonical: "/contact/",
+    canonical: "https://www.50bridges.com/contact/",
+  },
+  openGraph: {
+    title: "Contact Truck Insurance Broker | Fifty Bridges",
+    description:
+      "Contact Fifty Bridges to get a fast truck insurance quote. We help owner-operators and trucking companies across the USA get compliant coverage.",
+    url: "https://www.50bridges.com/contact/",
+    type: "website",
   },
 };
+
 
 export default function ContactPage() {
   return (

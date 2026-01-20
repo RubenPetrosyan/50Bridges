@@ -6,9 +6,17 @@ export const metadata: Metadata = {
   description:
     "Affordable commercial truck insurance for trucking companies and fleets. Fifty Bridges helps carriers across the USA get compliant, cost-effective coverage.",
   alternates: {
-    canonical: "/commercial-truck-insurance/",
+    canonical: "https://www.50bridges.com/commercial-truck-insurance/",
+  },
+  openGraph: {
+    title: "Commercial Truck Insurance USA | Fifty Bridges",
+    description:
+      "Affordable commercial truck insurance for trucking companies and fleets. Fifty Bridges helps carriers across the USA get compliant, cost-effective coverage.",
+    url: "https://www.50bridges.com/commercial-truck-insurance/",
+    type: "website",
   },
 };
+
 
 export default function CommercialTruckInsurancePage() {
   return (
