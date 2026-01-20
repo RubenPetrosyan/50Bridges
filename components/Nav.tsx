@@ -67,11 +67,13 @@ export default function Nav() {
 
         {/* Mobile Toggle */}
         <button
-          className="nav-toggle"
+          className={`nav-toggle ${open ? "open" : ""}`}
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
-          ☰
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
       </div>
 
