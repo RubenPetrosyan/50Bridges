@@ -442,3 +442,22 @@ li {
     gap: 32px;
   }
 }
+
+/* =====================
+   RESPONSIVE (1200px)
+===================== */
+@media (max-width: 1199px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-mobile {
+    display: none !important;
+  }
+}
