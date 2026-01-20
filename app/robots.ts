@@ -11,6 +11,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://fiftybridges.com/sitemap.xml",
+    sitemap: "https://50bridges.com/sitemap.xml",
   };
 }

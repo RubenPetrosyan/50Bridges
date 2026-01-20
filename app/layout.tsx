@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fiftybridges.com"),
+  metadataBase: new URL("https://50bridges.com"),
 
   title: {
     default: "Truck Insurance Broker USA | Fifty Bridges",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://fiftybridges.com",
+    url: "https://50bridges.com",
     siteName: "Fifty Bridges",
     title: "Truck Insurance Broker USA | Fifty Bridges",
     description:
