@@ -3,16 +3,29 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
 
-  // REQUIRED for Cloudflare Pages static deployment
+  /**
+   * Cloudflare Pages static export
+   */
   output: "export",
 
+  /**
+   * ✅ Canonical URL consistency
+   * /page → /page/
+   */
+  trailingSlash: true,
+
+  /**
+   * Cloudflare Pages does not support Next Image Optimization
+   */
   images: {
-    // Cloudflare Pages does NOT support Next Image optimization
     unoptimized: true,
   },
 
+  /**
+   * Remove console logs in production builds
+   */
   compiler: {
-    removeConsole: true,
+    removeConsole: process.env.NODE_ENV === "production",
   },
 };
 
