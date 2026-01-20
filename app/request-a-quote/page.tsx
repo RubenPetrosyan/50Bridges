@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Request a Truck Insurance Quote | Fifty Bridges",
   description:
-    "Request a commercial truck insurance quote. Submit your DOT details, fleet info, and documents to Fifty Bridges.",
+    "Request a commercial truck insurance quote. Submit your DOT details, fleet information, and documents to Fifty Bridges.",
   alternates: {
     canonical: "https://www.50bridges.com/request-a-quote/",
   },
@@ -17,10 +17,10 @@ export default function RequestQuotePage() {
         <h1>Request a Truck Insurance Quote</h1>
 
         <p className="intro-text">
-          Use the form below to request a detailed commercial truck insurance
-          quote. Our licensed trucking insurance brokers will review your
-          submission, verify compliance requirements, and contact you with
-          coverage options tailored to your operation.
+          Use the secure form below to request a detailed commercial truck
+          insurance quote. Our licensed trucking insurance brokers will review
+          your submission, verify compliance requirements, and contact you with
+          coverage options tailored specifically to your operation.
         </p>
       </section>
 
@@ -39,101 +39,101 @@ export default function RequestQuotePage() {
           />
           <input type="hidden" name="_redirect" value="/thank-you" />
 
-          {/* BUSINESS INFO */}
+          {/* BUSINESS INFORMATION */}
           <div className="form-card">
             <h2>Business Information</h2>
 
             <div className="form-grid">
-              <label>
-                DOT Number *
+              <div className="form-field">
+                <label>DOT Number *</label>
                 <input
                   type="text"
                   name="dot_number"
                   placeholder="e.g. 1234567"
                   pattern="^[0-9]+$"
-                  title="DOT number must contain numbers only"
+                  inputMode="numeric"
                   required
                 />
-              </label>
+              </div>
 
-              <label>
-                Legal Business Name *
+              <div className="form-field">
+                <label>Legal Business Name *</label>
                 <input
                   type="text"
                   name="legal_name"
                   placeholder="Registered business name"
                   required
                 />
-              </label>
+              </div>
 
-              <label>
-                Business State *
+              <div className="form-field">
+                <label>Business State *</label>
                 <input
                   type="text"
                   name="business_state"
                   placeholder="e.g. TX"
                   required
                 />
-              </label>
+              </div>
 
-              <label>
-                Mailing State *
+              <div className="form-field">
+                <label>Mailing State *</label>
                 <input
                   type="text"
                   name="mailing_state"
                   placeholder="e.g. TX"
                   required
                 />
-              </label>
+              </div>
             </div>
           </div>
 
-          {/* CONTACT INFO */}
+          {/* CONTACT INFORMATION */}
           <div className="form-card">
             <h2>Contact Information</h2>
 
             <div className="form-grid">
-              <label>
-                Contact Full Name *
+              <div className="form-field">
+                <label>Contact Full Name *</label>
                 <input
                   type="text"
                   name="contact_name"
                   placeholder="First & Last Name"
                   required
                 />
-              </label>
+              </div>
 
-              <label>
-                Email Address *
+              <div className="form-field">
+                <label>Email Address *</label>
                 <input
                   type="email"
                   name="contact_email"
                   placeholder="you@company.com"
                   required
                 />
-              </label>
+              </div>
 
-              <label>
-                Phone Number *
+              <div className="form-field">
+                <label>Phone Number *</label>
                 <input
                   type="tel"
                   name="contact_phone"
                   placeholder="e.g. 5551234567"
                   pattern="^[0-9]+$"
-                  title="Phone number must contain digits only"
+                  inputMode="numeric"
                   required
                 />
-              </label>
+              </div>
             </div>
           </div>
 
-          {/* OPERATION INFO */}
+          {/* OPERATION DETAILS */}
           <div className="form-card">
             <h2>Operation Details</h2>
 
             <div className="form-grid">
-              <label>
-                Years in Business *
+              <div className="form-field">
+                <label>Years in Business *</label>
                 <input
                   type="number"
                   name="years_in_business"
@@ -141,10 +141,10 @@ export default function RequestQuotePage() {
                   placeholder="e.g. 3"
                   required
                 />
-              </label>
+              </div>
 
-              <label>
-                Power Units *
+              <div className="form-field">
+                <label>Power Units *</label>
                 <input
                   type="number"
                   name="power_units"
@@ -152,43 +152,43 @@ export default function RequestQuotePage() {
                   placeholder="Number of trucks"
                   required
                 />
-              </label>
+              </div>
 
-              <label className="full-width">
-                Garaging Address *
+              <div className="form-field full">
+                <label>Garaging Address *</label>
                 <input
                   type="text"
                   name="garaging_address"
                   placeholder="City, State"
                   required
                 />
-              </label>
+              </div>
 
-              <label className="full-width">
-                Commodities Hauled *
+              <div className="form-field full">
+                <label>Commodities Hauled *</label>
                 <textarea
                   name="commodities_hauled"
                   rows={3}
                   placeholder="Describe cargo types"
                   required
                 />
-              </label>
+              </div>
             </div>
           </div>
 
           {/* SUBMIT */}
-          <button type="submit" className="cta">
+          <button type="submit" className="cta quote-submit">
             Submit Quote Request
           </button>
         </form>
       </section>
 
-      {/* POST-FORM SEO CONTENT */}
+      {/* POST-FORM CONTENT */}
       <section className="section">
         <h2>Prefer to Email Your Information?</h2>
 
         <p>
-          If you already have documents prepared, you may email your information
+          If you already have documentation prepared, you may email your details
           directly to{" "}
           <strong>
             <a href="mailto:quotes@50bridges.com">quotes@50bridges.com</a>
@@ -199,14 +199,15 @@ export default function RequestQuotePage() {
         <p>
           Attaching documents such as <strong>Loss Runs</strong>,{" "}
           <strong>IFTA reports</strong> (if applicable),{" "}
-          <strong>CDL copies</strong>, vehicle schedules, or any existing
-          insurance policies can help us deliver faster and more accurate
-          quotes.
+          <strong>CDL copies</strong>, vehicle schedules, or existing insurance
+          policies can help our brokers provide faster and more accurate
+          insurance quotes.
         </p>
 
         <p>
-          Our brokers work with trucking businesses across all 50 U.S. states and
-          ensure your coverage meets DOT and FMCSA requirements.
+          Fifty Bridges works with trucking businesses nationwide and ensures
+          all coverage meets <strong>DOT</strong> and <strong>FMCSA</strong>{" "}
+          requirements.
         </p>
       </section>
     </main>

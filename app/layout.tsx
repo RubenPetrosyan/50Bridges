@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://50bridges.com"),
+  metadataBase: new URL("https://www.50bridges.com"),
 
   title: {
     default: "Truck Insurance Broker USA | Fifty Bridges",
@@ -22,10 +22,6 @@ export const metadata: Metadata = {
   description:
     "Fifty Bridges is an independent truck insurance broker helping owner-operators and trucking companies across the USA get affordable, compliant commercial truck insurance.",
 
-  alternates: {
-    canonical: "/",
-  },
-
   robots: {
     index: true,
     follow: true,
@@ -34,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://50bridges.com",
+    url: "https://www.50bridges.com",
     siteName: "Fifty Bridges",
     title: "Truck Insurance Broker USA | Fifty Bridges",
     description:
