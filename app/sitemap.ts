@@ -4,11 +4,11 @@ import { MetadataRoute } from "next";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://50bridges.com";
+  const baseUrl = "https://www.50bridges.com";
 
   return [
     { url: `${baseUrl}/`, lastModified: new Date() },
-
+    { url: `${baseUrl}/50-U.S.-States` },
     { url: `${baseUrl}/owner-operator-truck-insurance/` },
     { url: `${baseUrl}/commercial-truck-insurance/` },
     { url: `${baseUrl}/small-fleet-truck-insurance/` },
@@ -16,8 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/cargo-insurance/` },
     { url: `${baseUrl}/truck-liability-insurance/` },
     { url: `${baseUrl}/physical-damage-insurance/` },
-
-    { url: `${baseUrl}/truck-insurance-50-U.S.-States/` },
     { url: `${baseUrl}/faq/` },
+    { url: `${baseUrl}/contact/` },
+    { url: `${baseUrl}/request-a-quote/` },
   ];
 }
