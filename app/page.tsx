@@ -118,7 +118,7 @@ export default function HomePage() {
 
           <p>
             If you operate across state lines, our{" "}
-            <Link href="/truck-insurance" className="text-link">
+            <Link href="/commercial-truck-insurance" className="text-link">
               nationwide truck insurance
             </Link>{" "}
             solutions help ensure compliance in all 50 U.S. states.
