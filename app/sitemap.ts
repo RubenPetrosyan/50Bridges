@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     { url: `${baseUrl}/`, lastModified: new Date() },
-    { url: `${baseUrl}/50-U.S.-States` },
+    { url: `${baseUrl}/50-U.S.-States/` },
     { url: `${baseUrl}/owner-operator-truck-insurance/` },
     { url: `${baseUrl}/commercial-truck-insurance/` },
     { url: `${baseUrl}/small-fleet-truck-insurance/` },

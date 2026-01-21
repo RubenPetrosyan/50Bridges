@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     "commercial truck insurance",
   ],
   alternates: {
-    canonical: "https://www.50bridges.com/50-U.S.-States",
+    canonical: "https://www.50bridges.com/50-U.S.-States/",
   },
   openGraph: {
     title: "Nationwide Truck Insurance in All 50 U.S. States",
     description:
       "FMCSA-compliant nationwide truck insurance for owner-operators and fleets. Coverage designed for interstate and multi-state trucking operations.",
-    url: "https://www.50bridges.com/50-U.S.-States",
+    url: "https://www.50bridges.com/50-U.S.-States/",
     type: "website",
   },
 };
