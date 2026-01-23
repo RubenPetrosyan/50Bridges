@@ -35,6 +35,14 @@ export const metadata: Metadata = {
     title: "Truck Insurance Broker USA | Fifty Bridges",
     description:
       "Affordable commercial truck insurance for owner-operators and fleets across the United States.",
+    images: [
+      {
+        url: "/OG.png",
+        width: 1200,
+        height: 630,
+        alt: "Fifty Bridges Truck Insurance",
+      },
+    ],
   },
 
   twitter: {
@@ -42,6 +50,7 @@ export const metadata: Metadata = {
     title: "Truck Insurance Broker USA | Fifty Bridges",
     description:
       "Independent truck insurance broker helping truckers across the USA get compliant coverage.",
+    images: ["/OG.png"],
   },
 };
 
