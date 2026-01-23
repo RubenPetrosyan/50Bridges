@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Nationwide Truck Insurance Broker | Truck Insurance in All 50 States",
+  title: "Nationwide Truck Insurance Broker",
   description:
-    "Nationwide truck insurance broker providing FMCSA-compliant coverage for owner-operators and fleets in all 50 U.S. states. Structured trucking insurance, fast quotes, and filings.",
+    "Nationwide truck insurance broker providing FMCSA-compliant coverage for owner-operators and fleets. fast quotes, and filings.",
   keywords: [
     "nationwide truck insurance",
     "truck insurance broker",
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     canonical: "https://www.50bridges.com/50-U.S.-States/",
   },
   openGraph: {
-    title: "Nationwide Truck Insurance in All 50 U.S. States",
+    title: "Nationwide Truck Insurance",
     description:
-      "FMCSA-compliant nationwide truck insurance for owner-operators and fleets. Coverage designed for interstate and multi-state trucking operations.",
+      "Coverage designed for interstate and multi-state trucking operations.",
     url: "https://www.50bridges.com/50-U.S.-States/",
     type: "website",
   },
