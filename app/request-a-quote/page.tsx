@@ -17,10 +17,10 @@ export default function RequestQuotePage() {
         <h1>Request a Truck Insurance Quote</h1>
 
         <p className="intro-text">
-          Use the secure form below to request a detailed commercial truck
-          insurance quote. Our licensed trucking insurance brokers will review
-          your submission, verify compliance requirements, and contact you with
-          coverage options tailored specifically to your operation.
+          Submit your trucking operation details using the secure form below.
+          Our licensed truck insurance brokers review each submission carefully
+          to ensure compliance with DOT and FMCSA regulations while structuring
+          the right commercial truck insurance coverage for your business.
         </p>
       </section>
 
@@ -176,10 +176,21 @@ export default function RequestQuotePage() {
             </div>
           </div>
 
-          {/* SUBMIT */}
-          <button type="submit" className="cta quote-submit">
-            Submit Quote Request
-          </button>
+          {/* SUBMIT + EXTERNAL LINK */}
+          <div className="quote-actions">
+            <button type="submit" className="cta quote-submit">
+              Submit Quote Request
+            </button>
+
+            <a
+              href="https://www.fiftybridgesinsuranceservices.com/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="secondary-link"
+            >
+              Need to provide additional business information? Click here.
+            </a>
+          </div>
         </form>
       </section>
 
@@ -188,26 +199,25 @@ export default function RequestQuotePage() {
         <h2>Prefer to Email Your Information?</h2>
 
         <p>
-          If you already have documentation prepared, you may email your details
-          directly to{" "}
+          You may email documentation directly to{" "}
           <strong>
-            <a href="mailto:quotes@50bridges.com">quotes@50bridges.com</a>
-          </strong>
-          .
+            <a href="mailto:quotes@50bridges.com">
+              quotes@50bridges.com
+            </a>
+          </strong>.
         </p>
 
         <p>
-          Attaching documents such as <strong>Loss Runs</strong>,{" "}
-          <strong>IFTA reports</strong> (if applicable),{" "}
-          <strong>CDL copies</strong>, vehicle schedules, or existing insurance
-          policies can help our brokers provide faster and more accurate
-          insurance quotes.
+          Attaching <strong>Loss Runs</strong>, <strong>IFTA reports</strong>,
+          <strong> CDL copies</strong>, vehicle schedules, or prior insurance
+          policies allows our brokers to deliver faster and more accurate
+          trucking insurance quotes.
         </p>
 
         <p>
-          Fifty Bridges works with trucking businesses nationwide and ensures
-          all coverage meets <strong>DOT</strong> and <strong>FMCSA</strong>{" "}
-          requirements.
+          Fifty Bridges works with owner-operators and fleets nationwide,
+          ensuring all policies meet <strong>DOT</strong> and{" "}
+          <strong>FMCSA</strong> compliance requirements.
         </p>
       </section>
     </main>
