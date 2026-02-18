@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     canonical: "https://www.50bridges.com/",
   },
   openGraph: {
-    title: "Truck Insurance Broker USA | Commercial Truck Insurance Nationwide",
+    title:
+      "Truck Insurance Broker USA | Commercial Truck Insurance Nationwide",
     description:
       "Fifty Bridges is a nationwide truck insurance broker helping owner-operators and fleets secure compliant, affordable commercial truck insurance across the USA.",
     url: "https://www.50bridges.com/",
     type: "website",
   },
 };
-
 
 export default function HomePage() {
   return (
@@ -25,7 +25,9 @@ export default function HomePage() {
         {/* HERO */}
         <section className="section">
           <header>
-            <h1>Nationwide Truck Insurance Broker for Owner-Operators & Fleets</h1>
+            <h1>
+              Nationwide Truck Insurance Broker for Owner-Operators & Fleets
+            </h1>
           </header>
 
           <p>
@@ -44,22 +46,40 @@ export default function HomePage() {
 
         {/* OPERATIONS */}
         <section className="section section-soft">
-          <h2>Truck Insurance Built Around How You Operate</h2>
+          <div className="home-split">
+            {/* LEFT CONTENT */}
+            <div className="home-split-text">
+              <h2>Truck Insurance Built Around How You Operate</h2>
 
-          <p>
-            No two trucking operations are the same. Your cargo, routes,
-            authority, and equipment all affect the coverage you need. We take
-            the time to understand your operation and place you with carriers
-            that specialize in trucking risk.
-          </p>
+              <p>
+                No two trucking operations are the same. Your cargo, routes,
+                authority, and equipment all affect the coverage you need. We
+                take the time to understand your operation and place you with
+                carriers that specialize in trucking risk.
+              </p>
 
-          <ul className="hover-list">
-            <li>Owner-operator truck insurance</li>
-            <li>Small and mid-size fleet insurance</li>
-            <li>Semi-truck and tractor insurance</li>
-            <li>New DOT authorities and startups</li>
-            <li>Established carriers expanding nationwide</li>
-          </ul>
+              <ul className="hover-list">
+                <li>Owner-operator truck insurance</li>
+                <li>Small and mid-size fleet insurance</li>
+                <li>Semi-truck and tractor insurance</li>
+                <li>New DOT authorities and startups</li>
+                <li>Established carriers expanding nationwide</li>
+              </ul>
+            </div>
+
+            {/* RIGHT VIDEO */}
+            <div className="home-split-media">
+              <div className="video-wrapper">
+                <iframe
+                  src="https://www.youtube.com/embed/mcXnz8WJ4mg?autoplay=1&mute=1&loop=1&playlist=mcXnz8WJ4mg&controls=0&modestbranding=1&rel=0&playsinline=1"
+                  title="Fifty Bridges Truck Insurance"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* COVERAGE */}
@@ -106,11 +126,17 @@ export default function HomePage() {
 
           <p>
             Many carriers start with{" "}
-            <Link href="/owner-operator-truck-insurance" className="text-link">
+            <Link
+              href="/owner-operator-truck-insurance"
+              className="text-link"
+            >
               owner-operator truck insurance
             </Link>{" "}
             and expand into{" "}
-            <Link href="/commercial-truck-insurance" className="text-link">
+            <Link
+              href="/commercial-truck-insurance"
+              className="text-link"
+            >
               commercial fleet coverage
             </Link>{" "}
             as their operation grows.
@@ -118,7 +144,10 @@ export default function HomePage() {
 
           <p>
             If you operate across state lines, our{" "}
-            <Link href="/commercial-truck-insurance" className="text-link">
+            <Link
+              href="/commercial-truck-insurance"
+              className="text-link"
+            >
               nationwide truck insurance
             </Link>{" "}
             solutions help ensure compliance in all 50 U.S. states.
